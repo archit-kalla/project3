@@ -216,7 +216,7 @@ void* download_thread(void *arg){
 
 	close(client_socket);
 
-	return 0;
+	return 0; //test
 }
 
 void* send_thread(void* arg){
